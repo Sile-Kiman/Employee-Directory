@@ -1,0 +1,12 @@
+
+.footer.mt-auto.py-3{
+    background: #150a7e;
+    padding: 20px;
+    border-top: 8px solid red;
+    text-align: center;
+    flex-shrink: 0;
+    margin-top: 0px;
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+}

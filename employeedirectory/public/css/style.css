@@ -1,0 +1,19 @@
+
+.navbar{
+    
+    color:white!important;
+    align-content: center!important;
+}
+
+.footer{
+    background: #2c0d2b;
+    padding: 20px;
+    border-top: 8px solid #666666;
+    text-align: center;
+    flex-shrink: 0;
+    margin-top: 0px;
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+}
+

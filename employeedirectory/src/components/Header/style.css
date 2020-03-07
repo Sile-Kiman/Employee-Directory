@@ -1,0 +1,21 @@
+nav.navbar.navbar-default {
+    margin-bottom: 0;
+    padding: 20px;
+    color:white!important;
+    align-content: center!important;
+    background: #150a7e!important;
+  }
+  
+ 
+  
+.navbar-expand-lg.bg-dark {
+  color:white!important;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 8px solid red;
+  background: #150a7e!important;
+}
+
+.middle{
+  text-align: center;
+}
