@@ -9,7 +9,6 @@ function SearchForm(props) {
         <label htmlFor="search">Search:</label>
         <input
           onChange={props.handleInputChange}
-          value={props.value}
           name="search"
           type="text"
           className="form-control"
@@ -17,9 +16,6 @@ function SearchForm(props) {
           id="search"
         />
         <br />
-        {/* <button onClick={props.handleFormSubmit} className="btn btn-primary">
-          Search
-        </button> */}
       </div>
     </form>
   );
