@@ -27,6 +27,7 @@ I used the following sites for my  research  during this assignment:
 4-TA’s and the instructor 
 
 Deploy Link:
+https://github.com/Sile-Kiman/Employee-Directory
 
 
 Test:
@@ -34,7 +35,7 @@ Test:
 2- Check the other spec such as when you clicks on each button the appropriate actions are performed. 
 3-Verify all the pages that were supposed to display are there. 
 
-![Image](https://github.com/Sile-Kiman/Burger/blob/master/public/assets/images/home.PNG)
+![image](https://user-images.githubusercontent.com/36079663/76156297-79b64180-60c6-11ea-8522-7981ce6b85c8.png)
  
  
 
