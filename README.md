@@ -27,14 +27,15 @@ I used the following sites for my  research  during this assignment:
 4-TA’s and the instructor 
 
 Deploy Link:
-https://fathomless-reaches-03065.herokuapp.com/
+https://github.com/Sile-Kiman/Employee-Directory
+
 
 Test:
 1 -Verify the page’s  look and feel matches the wireframe provided for this assignment- (this maybe slightly different) 
 2- Check the other spec such as when you clicks on each button the appropriate actions are performed. 
 3-Verify all the pages that were supposed to display are there. 
 
-![Image](https://github.com/Sile-Kiman/Burger/blob/master/public/assets/images/home.PNG)
+![image](https://user-images.githubusercontent.com/36079663/76156297-79b64180-60c6-11ea-8522-7981ce6b85c8.png)
  
  
 
