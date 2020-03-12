@@ -17,15 +17,20 @@ class Search extends Component {
   // When this component mounts, search for randome Employees API and populated their info
   componentDidMount() {
     this.setState({ results: Data })
+     
   }
 
   handleInputChange = event => {
-    const value = event.target.value;
-    const search = event.target.search;
-    if (search !== "") {
-      this.setState({ [search]: value })
+    const value = event.target.value.toLowerCase();
+    if (value !== "") {
+      const filteredArr = Data.filter(result => {
+       return result.name.includes(value)|| result.date.includes(value)
+       || result.email.includes(value) || result.phone.includes(value)
+      })
+        
+       this.setState({ results: filteredArr })
+        
     }
-
   };
 
 
@@ -59,12 +64,14 @@ class Search extends Component {
           <SearchForm
             handleInputChange={this.handleInputChange}
             results={this.state.results}
+            singleSearch={this.state.singleSearch}
  
           />
           <SearchResults
             results={this.state.results}
             onSortChange={this.onSortChange}
             currentSort={this.state.currentSort}
+            handleInputChange={this.handleInputChange}
           />
         </Container>
       </div>
