@@ -1,9 +1,8 @@
 import React from "react";
 import "./style.css";
 
-
 function SearchResults(props) {
-  console.log('props', props)
+  
   const sortTypes = {
     up: {
       class: 'sort-up',
@@ -16,6 +15,7 @@ function SearchResults(props) {
         }
         return 0
       }
+       
     },
     down: {
       class: 'sort-down',
@@ -27,18 +27,6 @@ function SearchResults(props) {
           return 1
         }
         return 0
-
-      },
-
-      fn1: (a, b) => {
-        if(a.name > b.name){
-          return -1
-        }
-        if(a.name < b.name){
-          return 1
-        }
-        return 0
-
       }
     },
     default: {
@@ -54,12 +42,16 @@ function SearchResults(props) {
         <tr>
           <th scope="col-2">Image</th>
           <th scope="col-2">Name
-          <button onClick={props.onSortChange}>
+               <button onClick={props.onSortChange}>
 									<i className={`fas fa-${sortTypes[props.currentSort].class }`} />
 								</button>
             </th>
           <th scope="col-2">Phone</th>
-          <th scope="col-2">Email</th>
+          <th scope="col-2">Email
+                <button onClick={props.onSortChange}>
+									<i className={`fas fa-${sortTypes[props.currentSort].class }`} />
+								</button>
+          </th>
           <th scope="col-2">DOB</th>
         </tr>
       </thead>

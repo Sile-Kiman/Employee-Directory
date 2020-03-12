@@ -45,7 +45,7 @@
      { 
       "id": 6,
       "name": "Hulda Wiemann",
-      "email": "hulda.w@example.com",
+      "email": "kim.w@example.com",
       "date": "09/12/1990",
       "phone": "(704)-901-7878",
       "image": "https://randomuser.me/api/portraits/thumb/men/25.jpg"
@@ -69,7 +69,7 @@
      { 
       "id": 9,
       "name": "Hulda Wiemann",
-      "email": "hulda.w@example.com",
+      "email": "bob.koneig@example.com",
       "date": "09/12/1990",
       "phone": "(704)-901-2091",
       "image": "https://randomuser.me/api/portraits/thumb/women/63.jpg"
