@@ -12,7 +12,7 @@ How does this work:
 
  
 Tool used to build my portfolio site.
-1-	JXS
+1-	JSX
 2-	CSS 
 3-  Bootstrap
 3-	JavaScript 
